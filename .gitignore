@@ -1,0 +1,42 @@
+# Environment variables
+.env
+.env.*
+
+# OAuth credentials
+credentials.json
+token.json
+client_secret*.json
+
+# PDF resumes / uploaded files
+*.pdf
+uploads/
+data/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+.venv/
+note_venv/
+env/
+
+# Streamlit
+.streamlit/secrets.toml
+
+# IDEs
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.temp

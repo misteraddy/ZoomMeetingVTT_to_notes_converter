@@ -1,0 +1,594 @@
+In today's class, I will discuss couple of more things, okay? So, first, guys, I will discuss about the pythonic.
+After that, guys, what I will do, after the pydentic, basically, we'll discuss about the Langraph memory, right? How you can manage the thread, how you can manage the memory inside the Langraph.
+And then tomorrow, guys, again, one more new concept inside the Langraph, like human and loop.
+Then, next week, again, we'll see the different, different orchestrator and all, okay?
+So, far, basically, I've shown you, one workflow and then one, tool calling method and all.
+But yeah, there are so many, different workflows, like synthesizer, okay, fan in, fan out.
+or reducer, optimizer, send API, subgraph and all.
+pythonic, you're going to be used a lot when, basically, you are working in any sort of a project, just for the schema checking, okay? Just, to enforce any schema on any sort of a program, or on any sort of a functionality.
+So there, the pythontec is being used a lot.
+It is not an AI-specific concept, okay? It is a generic concept only, so in the web development also, while… when we are sending a data from server to client, client to server, right?
+At that time, what we are doing, we are using this pythontec modeling.
+For the schema validation, we are using this Pyntic.
+Pyrentic and Pyrentic AI both are the different thing, right? So don't be confused that Pyrentic is similar to the Pyrentic AI, no.
+Pyrentic AI, basically, it is a framework for the Agentic AI, and Pyrentic is a pythonic library for the data validation.
+
+incoming data, then we have the parentic model.
+required field, for the correct type, for validating the range, for the correct format.
+So, everything, guys, we can validate using what? Using the pyntic itself.
+Pyrentic is called to Data Validation and schema Library.
+Pyrentic AI is what… it is an Agentic framework for building the Agentic AI application.
+built around the Parentic style, type safety.
+So, it is a framework for building the AI agent, similar to the Langrau.
+Pyntic is a Python library used to define the expected structure of the data and validate incoming data against the structure.
+Parentic helped us define what our data should look like, and checks whether the received data follows the structure.
+pythonic is a Python library that let us define the expected structure of data using Python types, and automatically validate the input data against the structure.
+schema enforcing simply means Making sure the data follow the structure and rules we have already defined.
+schema definition, defining what the data structure should look like, schema validation, checking whether the input data follows the defined structure, and then in schema, enforcing.
+schema enforcing means what: Ensuring that invalid data is not accepted, and that defined structure and rule are followed.
+raw data, then, guys, we have a parentic schema. Then, using the Pyrentic schema, basically, we are doing the type checking, type conversion, constraint, we are putting some constraint, we are doing some validation of the data, and what we will get, we will get the valid python object.
+Using the base model only, we are going to be convert any sort of a class into the pyntic class.
+Base model, basically. You will see this everywhere, this base model for the pythic imported class, for the pythonic class.
+Any class, if I wanted to convert into the Bentic class, then for that, we are going to be import the space model.
+class, class name is what user, we are inheriting this base model.
+name and the age, this is my variable inside the class, parameter.
+Base model gives your class the pyntic capability, like validation, parsing, serialization, JSON schema, error message.
+Without base model, if you are not going to define this base model, in that case, this is just going to be a normal pythonic class.
+If you wanted to convert any sort of a class into the parented class, then, for that, you are going to inherit the base model class.
+run this command ubpip install pydentic.
+Pirant is having their recent version. The version is called the version 2.
+Pyntic version 1, major API changes in the Pyntic version 2.
+dict become model dump, JSON become model dump, model dump JSON, parse object method, become model validator, model validate JSON.
+Schema defining, basically, are going to be defined as a schema class, basically.
+Schema validation means you are going to be checking that schema, whether it is working fine or not.
+Schema enforcing means it's just a term. You are just checking whatever schema you are going to be defined. It is valid or not.
+
+So, my goal, basically… what is my goal, guys? So, I wanted to verify the name, age… okay. So, I wanted to verify this two-parameter of any sort of a person.
+So the age, basically, should be greater than 18.
+So, this is, like, without parenting.
+So, my function name is what? Let's say, create underscore. user. Now, what it will do, guys, it will take the data.
+if name, okay, name, not in, not in inside the data.
+Then, guys, what I will do, tell me… so here, guys, I'm going to be ra… here, guys, I'm going to be raised the exception.
+if not instance, date name is SDR, then again we are going to erase the error.
+If age is not there, then what I'll do, guys, if age is not there.
+Then again, I'm going to be raise the error.
+If it is not integer, then again, I'm going to be raise the error.
+And then, guys, what I will do, so here is one more thing. A should be greater than 18. Let me put one more condition over here. So here, guys, the condition, basically, if the age is less than 18, in that case, again, we are going to be… raise what? We are going to be raised the exception.
+If everything is fine.
+Then, guys, what I will do, I will return the data. So here, guys, what I'm doing, guys, I'm going to be return the data.
+So, in the user data, basically, I can take a data from anyone.
+So, from…
+pythonic Base Model.
+Field.
+we have base model, and we have field.
+my class name is going to be what? My class name is going to be user. Now, what I'll do, guys, I will basically take a name. Name should be STR, and A should be integer.
+So in the field, basically, what we are going to be mentioned… in the field, basically, we are going to be mentioned the description, as well as the parameter, okay? Greater than, or the lower than, right?
+equal, whatever, basically, you can mention, you can write inside the field.
+So, fields let you add validation rules, description, some default value, some construction constraint, and the metadata.
+So this field method, this field method, basically, just to add some additional detail.
+field is for what? Field, basically, just to add some additional detail, like rule, description, some default value, constraint, metadata.
+greater than zero.
+less than equal to.
+Minimum length, max length.
+field is a method where, basically, we can pass some additional information, some additional parameter, just to validate the just to validate that specific variable,
+name, the type of the name should be string, so this is just a description.
+the value should be greater than or equal to 18,
+I will pass the value of what? I will pass the value of this name and the age, just to validate this entire thing.
+user.
+name,
+this is what, guys, this is my pythonic object.
+user.name.
+user.h,
+The age is not greater than 18.
+we are just going to be using that functionality in the form of objects,
+This entire functionality is an abstract.
+We are going to be installed that particular package as a pydentic package.
+I've just defined the data, this pyntic class, our user is schema.
+according to this schema, if it is correct, guys, then it will not generate any sort of an error. If according to the schema it is not correct, then it will showcase the error.
+Internally, it will handle this. This 49 string, it will be handled as a integer, okay? Internally, it will convert that.
+
+User registration class.
+name, email, and age, okay?
+email HDR is there.
+field is saying greater than, equal to 18.
+This is my use and registration, basically, class.
+Just to validate the, user, schema.
+email should not be like this.
+Email should follow the add symbol, right?
+At the red symbol.
+If you're going to be passed an email like this, then it's not going to be walled.
+it is telling 2 validation error.
+Your program is going to be shutted down.
+what we do for that, we use the exception heading, right?
+What I can do, I can use the try and the accept blocks.
+accept validation error.
+printing the E, the detail of the error.
+there is two ways.
+First, if you're going to be write it directly, then it will… terminate the application, okay?
+It will terminate the flow.
+If you wanted to handle this particular exception, what you can do, you can simply use a try and accept blog.
+This validation error, basically, you can import from the pythonic itself.
+In the try, you can write your main code.
+If it is having some sort of issue, then it will come into the accept blog, and then accept blog, basically, will give you the error detail.
+First, basically, to raise the error, right?
+To complete… to completely shut down the program, right?
+The program cannot be go-ahead after getting that particular error.
+The second, basically, to handle that error, to log that error, okay?
+To log that error.
+class product, actually, it is related to the e-commerce validation, product validation, that we write over here.
+This particular example which I've given you.
+This is belonging to the API validation.
+product validation.
+Name should be there, price, quantity should be there.
+this is my schema definition, and this is my schema creation, right?
+And this… all the… this entire thing is called the enforcing schema.
+we can do some schema enforcing.
+Sender account, receiver account, and the amount?
+amount should not be a negative 1.
+Or else I can put some conditions over here, greater than, let's say 5,500 rupees.
+
+model configuration class.
+model configuration class. So, I have created one more class. I'm just going to be copy and paste.
+So, the class name is the model configuration. So, where we are getting the model name, that should be string, temperature, and the timeout error.
+timeout, basically, this particular value. So, yeah, these kind of classes we can configure, and going forward, I will show you how to utilize these classes.
+So, maybe in the, basically, end-to-end project, we are going to integrate this entire thing.
+So this is the configuration, guys. This will pass, because all the value is… all the value is meeting to this particular criteria.
+temperature could be 3 of any model.
+Temperature could be 3 of any model, or 2.1, no, right? It's not going to be warped.
+So, here you can see greater than zero, let's say timeout value if I'm going to be passed something like this.
+So I can take this particular example, and I can basically pass the timeout value, let's say minus 5. So in that case, also, it's going to be generate the error.
+So these, value, the modulated value also, you can validate using the pythontec object.
+Structure output is the important one, and let me show you how to generate the structure output using this pythonting model.
+So, for that, I required the LLM. Here, I'm writing from Langchain.
+underscore… Grog.
+And then import.
+Chet Grok.
+So, this is what, guys, this is my class. Now, I will…
+basically create an object of this class. So, see, this is the object.
+Here's the object, guys. Now, what I'll do, guys, so here, let me check it out, whether it's working fine or not. So, I'll simply use the invoke method.
+dot invoke.
+Now, here I will write, what is the capital of the France. It's giving me the… it's giving me the answer, means the model is working fine.
+Now, what I'm doing, guys, so here, I'm creating one class. The class name is what? The class name is the personal detail.
+So we have a name of the person, age of the person, and the city of the person.
+City of the person. This feature is very, very important for the Agentic application, guys. That's why I'm discussing it again, even though I have shown in my previous code itself. So let's say the class name is what? Person Details.
+Now here, guys, what I'll do, I'll take this, LLM,
+And now I'll call one method on top of it.
+The method name is basically width, structure, is structural.
+output. Now, here I will pass the personal detail.
+Now, I'll assign this thing inside the variable that is a structure model.
+Now, this is what, guys. I have a model. Now my model is ready with the structure output capability, okay, with a pythonte capability. I can invoke it with a prompt, so here I'm writing invoke.
+And now, guys, I can…
+write something, okay? So, I can write over here, I can write one message, so my message is…
+Sunny is 30-year-old and lives in Delhi, right?
+So, here you will see the output.
+C.
+Name is Sunny, age is 30, and output is… city is the deli. So I've given this particular, prompt.
+and I define this as schema, okay? And I define this as schema, then I pass this schema to the LLM.
+I initialize the model, and whatever message I'm giving to the model, so model is able to extract those specific entity from the data itself.
+I have created this kind of class.
+So, we were having two… we were having the route and the reasoning.
+Route means which route it is going to be take, whether it's a RAG, web, or LLM. Reasoning means what kind of reasoning it is doing when it is taking a route, okay? So this kind of class we had created, and with that, basically, we were deciding our route.
+So, guys, this particular feature is very, very important inside the Agentic AI, and going forward, we are going to be used a lot this particular feature.
+the first one is what? Whatever method I have shown you, right, earlier. So, all the method, basically, I'll be, calling over here, on top of this, is schema.
+Now, here I'm writing one class, guys.
+the first one, basically, name. Name STR, okay? It's a mandatory one. Now, country is a STR, okay? Now, here you will find out some by-default value. So, India is what? It's a by default value. If you're not passing anything.
+Middle name, STR.
+Okay, the type of the middle name is STR or none. Got it? Either it could be STR or it could be none. This pipe symbol, basically, it is representing to OR.
+Nickmame, STR, or none.
+you can see the by default value of the nickname.
+Name is Sunny, country is a USA, middle name is a Kumar, and then the nickname is a Sun.
+Name sealed… name is coming over here. Country, basically, by default, is India.
+If we are not passing anything from here, then the by default value will be the India. Middle name, basically, it's a sr none, okay? So, either it could be sr none. So, here we are passing the string value. Nickmame, basically, what? s
+Or none, okay? And the by default value is what? By default value is none.
+user, and see the user? Sunny is there.
+By default, the country is India.
+Middle name is KUMAR, and nickname is what? None.
+What is the by default value of the name, nickname? None. What is the by default value of the country? India. None means nothing.
+None means nothing. None means what? Nothing.
+The meaning of none in python… the meaning of none is python is nothing, okay?
+
+None means nothing, right? So whenever we don't want to be initialized anyway, it means we can keep the none actually inside the variable, so that means nothing, okay? You can keep the blank or none.
+So, if I will show you the user, guys, see, I'm getting the user.
+If I wanted to get a value of this from this user, I can simply put the name.
+I can get the name, I can put the age,
+If I'm putting the age, what I'm getting, guys, I'm getting the age.
+See the type of the user, basically, it's a class, right? It's a pydentic class.
+Now, guys, if I wanted to convert this particular user into the dictionary, so how I can do that? So, simply, I'll call one method on top of it.
+So here, the method name is… dot model. Underscore, Tom.
+So in the latest version of the python deck, you will have to call this method model dump instead of the as dict, okay? So that you can convert this one, this dictionary, into VR. Sorry, you can convert, basically, this, user detail into the dictionary.
+Now, if you will check the type of it, so see, let's check the type of it, see, the type of the dict.
+Now, here, guys, if I wanted to convert this into the JSON, okay, so what I'll do, guys, I'll use the user, then I'll call the model, underscore term. JSON, okay? Now, once you will call it, guys, now see, what you're getting, you're getting a same object, same dictionary, but it is a string.
+If I will check the type of it, so let me check the type of it.
+So, see, it is a string.
+Now, let's say, guys, if I wanted to load it as a JSON object, so what I'll do, I will import the JSON, then I'll write over here JSON. load. Underscore. loads, right?
+Now here, guys, I will be passing this particular detail. Now, if I'm going to be executed, guys, now see.
+Now, this is not a dictionary… now there's not a string. It is a JSON object.
+So we can convert that string into where? We can convert that string into the JSON object, or you can say in Adict.
+Now, on top of this user, I can call one more method. So, I can call over here model underscore validate.
+Moder is underscore validate.
+Now, let's say, this is a class, guys, this is a schema.
+So this is what… this is a schema. Now, here, what I'm doing, guys, I'm going to be initialize this as schema.
+If it is not meeting to the structure, or value, or data type, or whatever, it will throw the error, right?
+against this schema, if I wanted to validate something.
+Against this schema, if I wanted to validate something.
+if I wanted to validate this one, Against the… a schema. So what I'll do, guys, I'll use this class.
+And on top of it, I'll call one method. model. validate, and I'll pass the data. If it is meeting the requirement, if this data actually is meeting the requirement of this schema, so it will run it, okay? See. It will not give me any sort of an error.
+Using this method, we can directly validate our data. If we're getting our data from somewhere, we can directly validate that.
+The one way, basically, we have a schema, we can initialize it.
+directly, we can call this method, and we can validate this schema.
+instead of this dictionary, we are getting a data in the form of… string, right?
+If we're getting a data form in the form of a string, right? This one. So, this is what, guys, this is a JSON object, right? Means I can validate using this particular
+I can validate using this particular method, this one. So, user… user model validation JSON.
+so these are data, guys, and we are able to validate this data using this particular method, model validation JSON.
+this is my user, right? Now, I wanted to check the user schema in a very, very detail.
+So what I can do, guys, I can call one method on top of it.
+The method name is going to be what? Model JSON schema.
+Model varied JSON, this is a different one. Model JSON schema, basically, it will give me the schema, the schema detail of this particular user class.
+So, here is my user one. I'll call one method on top of it, model underscore. Copy.
+this is what this is my user 2.
+means I can create the copy of the user also.
+I'll get the copy of it. See? I'm getting a copy of my user.
+Can I update this copy? Yes, I can update this copy.
+Here is my user 2. Now, what I'm doing, or let's take a user 1 only. Now, here I'm doing one thing. I'm calling this method. model copy.
+And here, guys, I'm passing one parameter. the parameter is going to be update.
+whenever we are going to be creating a copy, guys, we can even update the parameter also, okay, while we are creating a copy.
+If I'll check the detail of the user 3, what I'll be getting, guys, I'll be getting the user 3.
+You can update any sort of a parameter, basically.
+We have one more thing, one more very, very important concept of the pyntic. That's called the field validator.
+model validator and the field validator.
+model validator and the field validator.
+class name is what, let's say, employ.
+instead, the employee, guys, tell me how many parameter, how many variables we have.
+We have two variables, name and the integer.
+field validator means what?
+so it is having one tack… see, we are having field, right? So we can write the field validator like this, or we can put the… sorry, we can put the field over here, and then, based on the field, basically, we can define the data, sorry, description, metadata, or any sort of a value, whatever we want to… whatever we want to do.
+Whatever we wanted to get, basically, with respect to this variable.
+Everything we can define inside the field, or that class, okay?
+it is having one more way, field validator, and it is in a more detail, basically.
+we can put this decorator, field validator, and we can put the, basically some, checks on top of this name, okay?
+here, basically, we are going to be define one class method.
+Under this class method, basically, we can define one function, validateName, okay?
+It will take a value, actually, and it will check the name, right? It will check the length, actually, right? Length of the… name.
+If it is not matching, okay, length is not matching, guys, then what it will do, it will raise the value error, okay?
+If the length of the name is not matching, what it will do, guys, it will raise the value error.
+Otherwise, what it will do, guys, it will return the title of the value.
+This type of, validation also we can do. There is one more, like, specific decorator, field validator, okay?
+Field validator, basically, it is… field validator is for what?
+Field validator, basically, it is put some custom logic on top of the parameter, okay?
+
+Otherwise, we have a field class, you can initialize that, but again, if you wanted to put some custom logic, you can write in this particular manner, right? Now here, guys, you can see employees Sunny and 13. If I'm going to be executed, it will work.
+So, it is very, very useful now whenever we are checking the password length or something, correct?
+Now, guys, we have one more thing, that is what? That is a model validator, okay? So, it's doing the same kind of thing, let me show you that.
+So, we have a password, and then we have a confirm password to field. Then we have a model validator, and here mode is after. Okay, later on, I'll check. After the initialization, basically, I'll check that.
+So, here, guys, what I'll do, I'll check that, okay, after the initialization. Now, check password. So, what I'm checking, guys, so here, basically, I'm checking.
+So what I'm checking, guys, I'm checking if password is not equal to the confirmed password, so I'm raising the value error, otherwise I'm returning this self. Okay, self means what? It is going to be point out to this particular object only.
+It will not run, because password is not matching, right? So if I'm running it, guys, see, it is showing me the validation error.
+So, what is the differences between this field validator and the model validator?
+So, here you can see the differences, guys. So, field validator basically is working on the one field.
+Right? Field validator. Only one field, one parameter. Now, if we're talking about the model validator, guys, who is working on the entire model?
+Okay, multiple fields, whole object. So that's why it is able to understand the password and the confirmed password, these two parameters all together.
+So this is the differences between the field validator and the model validator.
+Mode after means what later on is going to be check the value. You can understand in the… in this way.
+We are getting the complete model, actually. After initializing the value, we are getting the complete model. And on top of it, we are going to be implement the validation.
+field validator, validate a single field, validate a multiple field. Work on an individual field value, work on a complete object model.
+Class method is not required over here.
+This one. If you wanted to mention, you can.
+But that is basically required inside the field validator, okay, whenever we are working with a single field.
+Generally, in the model validation, it is not required.
+In the field validator, it is required.
+Model validator, actually, it is validating the both thing. This both value, password and the confirmed password.
+So, guys, now, guys, we are going to be understand about what? We are going to be understanding about the nested schema.
+So, can we create the nested schema? Is it possible inside the pyntic?
+how we can validate this nested schema, how we can create that. So, we have a user. Inside the user, we have name, age, and email. Now, we have address. Now, inside the address, we have city, state, and PIN code. Now, inside the, basically, the user basically is belonging to the company. Now, in the company, basically, we have company name and the department.
+So, first, let's create the address, first, let's create the address one. So, this is the address, guys. Now, see, in the address, what we have, we have a city, state, and the PIN code.
+So this is my first schema. Now, guys, what I'm doing, I'm going to create another schema that's going to be a company schema, right? So here is my company schema.
+Now, guys, let's say if I wanted to create the user schema, how I can create the user schema?
+This is the important thing. So if you'll look into the user schema, so inside that, we will be having the name, age, and email. This is fine, guys, but apart from this one, we are having two more things.
+Okay, we have two more things. The another one, basically, is what? Address, and the next one is what? Next one is the company.
+So, address type is this address, this one, and the company type is this company.
+So, it's like what? It's like a nested schema. If I wanted to create this schema, how I can create that, how I can validate that? So, let's suppose if you have this kind of data.
+user data. Now, guys, tell me, can we validate this particular data? Name is Sunny, age is this one, email is this one, address is this one, PIN code, company is ABC technology, and department is AI engineering.
+So, can we validate this particular data against this schema? Now, here, guys, what I'm doing, guys, tell me. Here, I'm going to be called… here, I'm basically taking this user.
+And then, guys, I'm calling one method, model.
+validate. And here, basically, I'm passing what? I'm passing the user data. Okay? I am passing what?
+I'm passing user underscore data.
+Now, guys, instead of the validation, let's say, if I wanted to initialize this object, can we initialize this object? Yes, we can initialize this object. That is also possible over here. So, how to initialize this object, guys? This user object?
+user object initialization, so let me, basically keep it over here, see. Name, Sunny, age is this one, email is this one, address, and the company. If you want to run it, guys, see, we are getting this particular schema.
+Langraph, basically, it is, supporting so many things with respect to this memory and all.
+
+The first is a UUID, this is just to provide the unique ID. Then a data class is there, then init chat model is there, just to initialize the chat model, okay?
+Then, state graph, messages, state, start, and I think you're already familiar with this particular, function, this particular methods, okay, this particular classes. Then, in Memory Saver.
+So, checkpointing also we can save in memory, and basically, memory also we can store in the… in memory, okay, in the runtime.
+So, this is my simple method. Init chat model. So, I can directly import it from the Langraph, sorry, from the LangChat. And whichever model I wanted to import, sorry, whichever model I wanted to use, I just have to be past the model name over here.
+And then I can initialize the model.
+So this checkpointer basically is for what?
+This is for the, sorry, this, in-memory object, in-memory saber object is for what? This is just for the checkpoint, okay? For, like, storing the…
+conversation history for the particular thread, okay, for the particular thread ID. So, this is my one of the checkpointers.
+So this is for the, user-specific information across all the thread.
+And here, this in memory, basically, it is a…
+in-memory… sorry, in-memory saver, in-memory store. So, this in memory store, basically, it is for saving the…
+like, the long-term memory, okay? Long-term memory across the conversation with respect to the particular user.
+Okay, this is my in-memory saver for the checkpointer, and this is my in-memory store for the longer memory, okay? For the long-running memory.
+Data class is simple. Again, it is a schema only, okay? So, we can utilize this user ID from this context class.
+So, let me do one thing, let me write the context.underscore user ID, okay?
+user underscore IT.
+So this is the user ID, which we have initialized over here.
+Right?
+So, again, it is kind of a schema. Okay, using the data class again, we can create the schema, right?
+The node name is the assistant node.
+Okay, now it's taking two things. One is the state, and the second is what? Second is the runtime.
+Then, guys, after that, I will be defining the namespace, right? So, what is this namespace and all everything, guys, I'll be discussing this namespace, where we have a user, user ID, and the memories.
+So, what we have, guys, we have a namespace.
+So one is a user ID, and another one is a namespace.
+Now, what I'll do, guys, I'll take the latest message of the user. So, let me take the latest message of the user from the state.
+So this is the latest message from the user.
+the condition, basically, if user message, Start with remember.
+what I'm doing, guys, from there, remember, we are going to be…
+extract the memory, this one. User message, length of remember, okay? Then, guys, what we are getting, we are getting the memory.
+so, in the runtime itself, we are going to be put this memory.
+So the runtime itself, we are going to be put this memory. So, where we are going to be put it? So, we are going to be put it inside our store, right? So, runtime.restore.put.
+Now, here what I'm doing, guys, so this is my nam space.
+Here is my… User ID.
+we have this memory runtime.store.search. So, what I'll be getting, I'll be getting the memories, actually, right? So, it is for the longer run.
+It is for the longer run, and this particular thing is going to be out of this.
+Out of this if condition, okay?
+So, this is a memory text.
+So, from where we are getting, we are getting it from the memories. So, this is what is a memory text.
+If not memorized, then no saved memory. Got it? So this for the short-term memory, and this for the long-term memory, this one.
+So for that, we have one system prompt.
+So let me define one system prompt.
+Here is what, guys? Here is my system prompt. This what?
+There's my system prompt.
+role is a system, system prompt, and then we'll be having the message over here.
+So, what I'll be getting, guys, I'll be getting the response
+And then finally, I'm going to be written this particular response. So this is a simple node which I have defined.
+Just to capture the memory.
+Here is what, here is my written statement.
+So, here, I will, basically create a graph. So, let me create a graph. So, here, I will, initialize a graph state graph, I'm passing the state, and now I'm passing the context also, right? So, here, if you will see the context, guys, so this is what is my context.
+I have created a class now, this one. This one. This one. User ID, right? So that is what, that's my context.
+I'll add the node over here. So, here is my assistant.
+Let me add the notes. So, this is my assistant, guys, this one.
+Then what I have, I have the start node and the end node. Both nodes is also there, let me add it over here.
+So one is the start node, and the other node is the end node.
+So, here is my builder.
+Then what I'll do, guys, I will simply pass the check pointer, okay, and the store. There's two things I'm going to be passed while I'm going to be compiling.
+So here, guys, you can see my graph is ready.
+The method basically is responsible to provide the detail of the message.
+This is a very simple method. If you'll read it out, you will get it. So we have a message, user ID, and the thread ID. Okay? So here, we are going to invoke the graph with a user message.
+Now, here is what? Here's my configuration, thread ID, and the user ID. We're getting our answer, and we are going to be written that particular answer.
+This is, like, one of the ways of sustaining the memory inside Ver inside the Langra.
+This is one of the code, basically. It's… you will get this particular code inside the, latest version of the Langraph, right?
+Ajit, what is the meaning of the memory?
+What's the meaning of the memory in context of this AI application?
+So let's say if I'm writing over here, memory.
+So, can I say… It is a shared history.
+
+We are having two things.
+The one is called the user ID.
+And the second is called what? Second is called the thread ID.
+thread ID.
+User ID, basically, it is… Discriminating between the user, and user ID, basically, it's an ID to the specific user.
+Thread ID, now there could be thread ID also.
+There is a two thing. One is a user ID, and another one is the thread ID.
+This Sunny, actually, it can initiate a lot of threat.
+With respect to this thread 1, I will be having one thread ID.
+Corresponding to this thread 2 and thread 3 also, I'll be having some ID.
+Every chat, actually, it is associated with thread ID.
+It's a parallel chat thread.
+Multiple chat thread, basically, I can initiate over the chat GPT, either me.
+In one thread, in one chat, in one chat, what I'm doing, let's say I'm going to be discuss about the lank, I'm going to be discuss about the machine learning.
+In another chat, basically, I'm going to be discuss about what?
+In another chat, I'm going to be discussing about the generative AI.
+In another chat, I'm going to be discussing about the DSA.
+I've initialized 3 chat, in a different, different thread, in a different, different chat, my different, different chatting is there. My different, different history is there. So, with respect to one user, there could be multiple thread.
+Thread ID would be there, so with every sort of a chat, with every sort of a new chat, one thread ID will be associated.
+We have a user-level isolation also.
+This user and this thread, actually, we can easily mention.
+This user… And this thread, That's a thread one.
+Thread 2…
+Thread 3, thread 1, thread 2, Thread 3, right? So this user and this cha… and this thread, basically, easily we can mention… easily we can maintain inside the LAN grav.
+And this is one of the ways, basically, to… Manage the chat history.
+That is also called a memory.
+As of now, we are saving this particular memory in… In memory, right?
+In memory, basically, it's the RAM.
+volatile memory.
+If the session is going to be destroyed, then this memories also be erased.
+So, if you want a persistent memory.
+then we'll have to keep this particular memory inside some DB.
+You can configure the post gray, you can configure the SQLite.
+Any sort of a database you can configure to keep the memory.
+This is my model, this is my in-memory saver, checkpointer.
+Okay, then there's my store.
+Checkpointer, basically, we are… keeping the… we are storing the conversation, right? We are storing the thread, right? User… and store means what? Store means? User-specific long-term memory.
+Checkpointer means what? It's a snapshot.
+It is what it's a? snapshot, basically.
+Check pointer, what it is doing is just taking the snapshot of the memory, and the store, basically, it is taking the complete history of the conversation.
+Checkpointer, remember the conversation, while store, remember the user across the conversation.
+Here in… we are going to be… store the checkpointer.
+Now, in memory store, we are going to be stored the memory.
+This is my, like, user ID.
+Here, I define how to, like, get it.
+Now, it is taking run… state and runtime.
+From just, like, taking the message, and it's taking the context from the runtime.
+This is my state, there's my node, here's my edges, here is my, graph.
+This is my chat method, which is taking message, user ID, thread ID.
+I just need to be called what? I just need to be called this chat method.
+My current project is an Agentic rag. There's a user ID, Sunny123, and then there is a thread ID.
+user, what is my current project? So, assistant is saying, your current project is a rag.
+We can, basically, ask the follow-up question.
+We can, basically, initialize a different, different thread also.
+We can initialize a different, different, what I can do, different, different, basically, user also.
+Remember, my favorite programming language is a python.
+Memory saved.
+My favorite programming language is Python.
+Here it is saying my favorite programming language is Python.
+user. User, basically, my favorite programming language. So, assistant is saying, okay, got it, this, this, this, this, right? It is generating in this way.
+I'm going to be… initialize a new thread.
+Here I'm asking, what is my favorite programming language? So, it is saying your favorite programming language is the python.
+I have initialized the second thread, but it's still… it is able to answer for this particular question.
+Because it is not a checkpointer, it is a store.
+So it is, like, storing a conversation across the threads.
+Across the different, different threads.
+It is an in-memory store.
+This is the diagram of it.
+We have Sunny123, in-memory store, favorite programming language is Python, thread 1, and thread2.
+This in-memory store, basically, it is working across the thread.
+Across the thread, basically, it is going to be… is store the, detail.
+We can basically initialize a different, different, user also.
+I'm passing the different user ID, and the different thread ID also over here.
+This is the detail from the user, different user side.
+Yes, we are able to save the detail of this user also.
+Along with that, if the suffix is remembered, then it will be able to store this detail in the long memory, in the… basically, in the database, the in-memory store.
+So it is working in this particular manner.
+user is there, favorite programming is python, favorite programming language is Java.
+You can slice up one more thread over here.
+What is my favorite programming language? Rahul is this one, there's a user ID 456 over here, and there's a second thread.
+If you will ask the same question from this particular thread, it still will be able to answer.
+Because it is going to be… sustain the memory, the complete memory, because we are putting this particular suffix, it is going to be append.
+Whenever we are working with a Chatt and all that, again, we… it is not, like, visible to us, but in a backend, something is this… something, this kind of thing is being attached, maybe, in a backend.
+This is one of the logic, basically, which we can implement.
+This is a user ID. This is the user ID, 123.
+
+define into the namespace, and then you can iterate over the namespace, guys, that's it. So once you iterate over the namespace, you will be getting the complete memory of that, right? So whatever, like, chat we had related to that specific, user ID and the thread ID, you will be getting the complete detail, like this.
+So, fine, guys, I hope you liked the session. Tell me if you like the session, then please give me a quick thumbs up. And tomorrow, guys, don't miss tomorrow's session, it's going to be very important, because the same thing, basically, we are going to be using our Converse Session AI, project, okay?
+what we can do, guys, I can, show you one practical use case with a conversational AI, and there we can, implement this entire memory and all. See, memory concept is not required everywhere.
+Okay, it is required in the conversational AI, it is required in the chatbot, it is required in the QA system and all, that's it. So, in every AI use case, this memory concept is not required. If you're simply going to be generate some report, if you're simply going to be reviewing anything using the LLM,
+Okay, if you're going to create those kind of applications, then… Memory concept is not useful.
+It is useful when?
+you are making some conversational system.
+Is there any validity of the memory? Yes, there could be validity of the memory. We can put those checks in the constraint.
+AI coding Agent is also a good choice nowadays, which can generate a code in a…
+Runtime itself, and it can understand the business acquiring the runtime, and it can generate the code as well, and it can integrate it inside the current code base, the current pipeline.
+I have seen many companies are, working on the, like, the coding agent, okay? They are putting much effort on the coding agent. What that coding agent is doing, you know?
+They have a system. Now the new requirement is coming.
+that coding agent will be activated. Automatically, it will create a code, it will test that, it will integrate inside the pipeline, and then our feature is done.
+the same kind of thing. Automatically generate the code, automatically generate the script, actually.
+Basically, we have a bunch of tools, and I created using Create Triangle.
+So, whenever I'm calling, like, you know, search the work item or update the work item.
+And all. It is simply saying, like, yes, I, like, it will do the reasoning, and it, it is, telling, like, yes, I have created the… I have called the toolcore, and I have got these results.
+But if I actually go and trace the toolkall, how it has done.
+in there, it never ran a tool call. It is simply taking from the memory, and it is giving the answer.
+You can, put some validator, no, over there, right? Tool call validator, tool result validator. If you're getting those few, I think then you're good to go, right?
+Yes, basically, whenever, like, in the previous chart and all, it has given some answers, right? So, basically, from that memory only, it is fetching and, giving the answer without tooling that tool calling.
+So, what you can do, you can put some validation. Let's say LLM says, I have… I created some work item.
+So, AI message, whatever AI message you are getting, in that, you can specifically check whether the tool call is there or not.
+let's say the tool core is there. Even you have a tool also. Yes. Now.
+What you can do, you have a matching tool.
+Now, the tool is being called, and what tool will… what tool will return? It will return the tool message.
+Now you can validate this also. Tool message and tool call, everything you can validate.
+Whenever, like, in the long context, whenever the conversation is in long context.
+it used to… the model used to do like that. Without calling the tour calling, it is simply fetching the answer from memory and trying to give.
+model can do the coding, it can understand the coding, it can make changes over there.
+If you are using this model via OpenAI API, then yeah, it will provide a better reasoning capability in any of other… any of… in any of our tasks, right? But still, everything we cannot leave to the
+Model, or to the agent right now.
+Automate… automation is there, AI automation is there, AI application is also there, cloud is also being used in the industry.
+Right? But still, we cannot leave everything to the agents, to the system, to the models.
+Earlier, they were using the Claude only.
+Right? So, they have some documentation, their legal document. They are… they need to verify those documents after a certain process. So, earlier, that work was being done by the human. Now, they wanted to know… now they wanted to, like, now they want it to be done by the EI itself, so they have some rules.
+
+Cloud SQL is able to do that thing, right? But we can create our own custom application.
+So, whatever model an agent is coming right now, this year, next year, up to next 3 to 5 year, right? So, that cannot replace the teamwork, the human touch, okay, the human intervention.
+the cost of the memory and other infra… which runs the AI is increasing by many points, right? And there is a tremendous stress on the resources, natural resources, and prices are going up every day.
+Initially, which was, like, a cost motto, that you don't have to hire the people, but rather you use the models to reduce your costs. Now, they are becoming costlier than the human capital.
+AI is not really cost-worthy, in every case.
+AI ka cost bad rahe, definitely mahlah, uskele BARDA infrastructure chahiya, GPUs chai, run kar nik liae, hal.
+companies ko apne, like, employees biore bhane padenge ho jo infrastructure kum manage kar sakteho.
+Ap dhrid job roles ne program manager hai, product manager hothe hai.
+Or, people manager jo hot hain. Unka kaam jaatar program kum manage karna hotay.
+Toh, abih venu kya di kainaki ko log, people are using the AI tools.
+Or making their work easier.
+Or making their work easier. But they are not leaving everything up to the AI. Abih may me recent 2-3 year mah tokoi changes dahiya, Bh s dahiya, ki jolk pallah tola Mehul kam karti, abih auth use kirti tola structure work kan nilag hain. Akhat ja sa koi report, srh dhwik mein banti thi.
+And, Thabih AIK helps say, within, like, 1 hour or… Tu army banjati hai wo sab chijay.
+Apoi program manager hota, koi product manager hotathko Vijay ko showcase karna hai, bijan se kusk bachit karne hai, okay, kush documentation banana hai, aapne team ko brief, tobo, chijay bhut fast current.
+AI ka used to BARDA hai Wase platform bhi mahlab abih Redimate platform bhi anilage ay wali.
+jo ko, Mehi na hua nahiya integration kabih integration, ja seki kuchase hunge joki apne ab, data lekhe ossek reports, intervention human kaur.
+human Kaos application meh human vinesh ke bicha Bhit pot kajay.
+Developer sothe thee. BA zute, or bhjanj Team Rate theme Mehli.
+O AIC helps usko interpret karke aapna, to mah usko implement kar rah.
+Toh ye toho ik naya rollah rajde ki bolte hain woke a hai, bohito senior architect kerke roll hai, aur joh pad hai A business sebi Bhat kar sakte hain aap user ka requirement sama sakte hai.
+karigih companies, aur wo karcha ina wo bh reoccurring na yoga, maybe bhur cost-effective hojaange jake, yaun ka one-time investment ho. jo human resources kohair kirti hain.
+Toho long run mahalaya path das bh saif log dahkti mah business waale mahap companies.
+With the AI unka kaam o jada structure oya, o jada fataphatarike seh stress full stress Pillai kaam utta akhusi menu karne partiti aap to wo AIGara se hojara.
+Gir rah board kobi update kar sakte hain. Abhj share pointer internal databases hold the companies kyas ko cha hotai, ya, vinesh mahatab… chatta ki am direct ke bh chatta hai sarh sidhamm development team se baat kar hain wo kudi apna saha requirement balak dahi sakne program manager ke jarva Pari Aange jake, kudase platform rajah, na?
+forward deployment engineer abih bi hai. Koi forward deployment engineer koi isa koi specific role nahiya.
+Jaik senior architect, lead tech architect, koi forward deployment engineer hai.
+Toko ek bhanda Pura kah si project meh saif company meh.
+Forward deployment jena ko bolta, bhai kar leg hai implement kar leg hai Picher. Bhik bhak ketanag kamkar leg habathum.
+Meh aapko project, Pur rahe project aki kam dun mein aapi ko develop karna hai, api ko test kar hai, Api ko business bhat karna hai possible hai, kesi project mein. Without Team Kumari usatayin.
+Pawar deployment engineer kuch nahiya, o serip ek bhanda hai, jukit usko tech kar knowledge hai, already log hai kaam kar rahce tech knowledge logo, AI ka knowledge bhai, or by that time throh experience jojatay Agarw business ko domain kuch samasah bhi effectively BHAT ker sakta hai.
+Was project kujalice implement kara sekta, production mahal sekta, way forward deployment engineer.
+Lok hain, sa kam kar raha.
+Let's say if, basically, there is a person, right? If the person wanted to develop something, wanted to test something, wanted to talk with a business, right? No, nothing, it's impossible.
+You have to be learning how to use AI effectively.
+Basically, how to, if you are into the program management side, na, what all tools are there with that? Basically, I can do the quickly automation and all, okay?
+So, those things you have to be learned. Or, if you wanted to come into the development side, AI engineering side, then… do some good project, learn, like, with me, okay?
+And then, basically, you can go into that role also.
+A toh hands-onge mahi courts join gyata, actually, Kavitha on the senior architect plus system design side mahi, zada scope, like a domain plus system design side me.
+ye jo abih ola mahai odo Deepika kirti aur apto koi open source model heavy ni, ki busko Pesak harjk karna hobi nh rahit na companies keh mein.
+So, you see, gee open source models will go away, Sirf NVIDIA, he usko Zindar rajattah aki, he has the money right now.
+Definitely, the bigger company can do that, even NVIDIA has acquired this Hugging Face also recently.
+They wanted to be expanded on the different side, actually, they have that capability, so definitely they'll invest and acquire some… this kind of firm, right? Nvidia and all, this Hugging Face and all, right?
+They have a variety of model and all, everything, actually, like… open source, you almost close your leg. Sustain ni opange.
+No, it's not like that, whatever model is coming in the market. See, all the good models are not open source, which we already know, correct?
+OpenAir and all, right? So, whatever research model is coming, or whatever is… work is being done by the community, right? So that will still be for the community. Maybe NVIDIA will take this thing in another way. They will not close source everything.
+Just check it with the, like, with this LLM benchmark and all, right? You will get which models are good, right?
+
+Whatever AI consultants you are doing, the project, basically, you're getting, you're getting more towards the no-code tools at all, correct?
+Claude, cloud, cloud-related, like, the services, like cloud skills code, and the other will basically Nitin, or some other kind of tool.
+Agentic Flow is not Nitin and all.
+Agentic Flow, or this, conversational system, or this Rakesh system, or with this, Claude itself, Claude skills and all, because it is also providing you, like, everything.
+Claude is also providing the complete ecosystem.
+Cloud Solution Architect, Cloud Developers, cloud professionals, right?
+So even I have done the Cloud Developer Certificate, and in that, like, so many, like, things related to the Agentic and all, which we can do directly via cloud itself.
+if you want the ready-made tool, okay, on top of that, you wanted to learn those tools, and learn those tools, and you wanted to apply some customization, and you wanted to build the application, then yeah, AI no-code is a good one.
+developer means what? Whoever is doing a… whoever is going to be building a custom application, right?
+Whoever is basically doing the real AI engineering, whoever is basically deploying that system for the companies, right?
+this modern route, okay, AI forward deployment engineer, and the other, basically, batches like, AI Agentic, which Mayank is taking, one of the batches, right?
+the specialization batch, so those kind of batches require, where the actual development comes to take any framework from scratch, and build the application.
+everything is an agent.
+Until you don't develop something by your end, then you cannot learn.
+there is a risk condition in that situation, the higher that two functions is, facing, same, same data, they are searching same, same data.
+Suppose one is updated, and second, thread is not getting the answer.
+Suppose I have a, ticket booking system, and there is a, there is a one ticket is there, the two guys are fighting for the one ticket. Then that situation is the race condition is happening.
+
+by the LLM, calling the tools, right?
+To know whether the… The person is able to understand what he is able to write.
+Is the primary agenda to know whether the other person is able Able to write the code.
+This is the primary agenda to check the person.
+RAG, Agentic AI.
+Uske Bad, MCP, guardrails, evaluation, isara cha sum jo.
+Cloud wala part sum jojek.
+
+And it will parse it, understand those 20-30 fields, which are very important, like payment terms.
+other conditions, delivery conditions, or penalty, and all those things. It will understand, those things, and then it will update in that content, as well as the order.
+So now, let's say that they can… I know, okay, ERP, I understand many companies are using,
+Oracle and SAP, so I understand their structure, what Boom.
+their ERP structure. But that contract structure will be different. Some are using only, normal document type, some companies are using, contract management applications, like, I certainly use Congra, so…
+these, schema are very different. So I wanted to build That agent, which…
+kind of plug-and-play for any real estate. If I tell it to them, then they just plug their contact system, either it's document or API, and my agents would understand their schema.
+RAG… and RAG, I was thinking, but RAG… Oh…
+would be very costly, because… costly or… or… or that means it takes much effort, because every deal needs then one new document. Then we should do the chunking, ingestion, and the retrieval for each document type.
+So that I am not considering, like, for every deal, there will be a one… every time there will be one, injection, and then retrieval.
+Are there any way where I can have some universal schema, or any real estate, they can use it, irrespective of how they use their structure?
+Yeah, so see, if you have a company contract sources, right, Let's say, document, or…
+Whatever, right? DV and all. So you can, build some connector layer on top of that.
+And the different, different, basically, layers you can create means the complete data pipeline you can, design first.
+And on top of it, basically, you can implement the Agent TK earlier.
+Your data pipeline, have you built that?
+data pipeline is one thing I was thinking, with POC, which I'm doing, taking data from, like.
+SharePoint.
+So, let's say I know, like, one company, they are using SharePoint, and they store a document type. Like, they have their own PDF, they are storing that. So I… so I know their structure.
+So, then I'm picking from the SharePoint, and using the LLM to parse that, getting those 2035 which I wanted to validate.
+But if I'm going with the big customers, let's say, who are hitting any…
+proper contact management system, like ICRTs. Even they are, they are also having document.
+But their document structure will be different from this customer.
+So… How should I have my connector, what you said, or data pipeline?
+Which understands any of, structure or schema.
+the company A, B, C, D,
+Everyone have very, very different, schema and structures.
+I would not design even RAG system for this one, since your challenge is, like, that every customer contract system has a different schema, correct?
+I want to introduce a connector layer over here.
+Okay, we can design some dynamic schema also, it is there inside the pythontec and all, everything we can do.
+Okay, dynamic schema capability is also there, means whatever, like, data you have, according to that, on the way, you can create a schema.
+So that is called the canonical schema. Just search about this term, how to create.
+I will read about this dynamic schema and canonical impedentic.
