@@ -1,6 +1,3 @@
-Here is the complete `README.md` content. Copy everything inside the code block into a file named `README.md`.
-
-````markdown
 # Meeting Note Maker
 
 A Streamlit application that converts Zoom `.vtt` transcripts into detailed technical study notes using Google Gemini.
@@ -412,32 +409,4 @@ Never commit API keys to GitHub.
 * `google-genai`
 * `python-dotenv`
 
-## Future Improvements
 
-Possible future improvements:
-
-* Reduce the number of Gemini API calls
-* Combine cleaning and note generation
-* Generate notes and technical context in a single LLM call
-* Token-aware chunking
-* Better speaker detection
-* Progress bar
-* Resume processing after API failure
-* Markdown output
-* PDF export
-* DOCX export
-* Multiple transcript processing
-* Local/free LLM support
-* Processing cache
-* Improved rate-limit handling
-
-## License
-
-This project is intended for educational and personal use.
-
-Add a license here if the project is published publicly.
-
-```
-
-Available next action: :contentReference[oaicite:0]{index=0}
-```
